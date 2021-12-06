@@ -1,0 +1,120 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+* {box-sizing: border-box}
+
+.navbar-brand{
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 320px;
+  height: 40px;
+  background-color:rgb(171, 123, 216);
+  text-align: center;
+  color: white;
+}
+
+.makepaymentbtn
+{
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  right :0;
+  height: 40px;
+  
+  text-align: center;
+  color: white;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color:rgb(171, 123, 216);
+  text-align: center;
+  color: white;
+}
+.dropdown-menu{
+  width: 50%;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color:rgb(171, 123, 216);
+  text-align: center;
+  color : white;
+}
+.Landing{
+  position: absolute;
+  background-image: url("img/image2.jpg");
+  top: 40px;
+  overflow:auto;
+  left:0%;
+  width: 100%;
+  height: 320%;
+  text-align: center;
+  color: white;
+}
+
+
+
+input[type=text] {
+  width: 30%;
+  padding: 15px;
+  height: 40px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+.Transaction{
+  position: absolute;
+  padding: 30px;
+  top: 5px;
+  width: 100%;
+  height: 40px;
+ left: 30px;
+ margin:auto; 
+  text-align: center;
+  color: black;
+  
+}
+
+
+.MakePayment{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 50px;
+ left: 30px;
+ margin:auto; 
+  text-align: center;
+  color: black;
+}
+
+
+
+.Calendar{
+  position: absolute;
+  top: 120px;
+  width: 10%;
+  height: 50px;
+ left: 580px;
+  text-align: center;
+  color: black;
+}
+
+.txn{
+  position: absolute;
+  left: 35%;
+  width: 30%;
+  height: 50px;
+ margin:auto; 
+  text-align: center;
+  color: black;
+
+}
